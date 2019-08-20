@@ -36,3 +36,4 @@ string version = fvi.FileVersion;
 
 [1]: https://github.com/dotnet/sdk/issues/1098 "Question: How to version dotnet core assemblies"
 [2]: https://stackoverflow.com/questions/909555/how-can-i-get-the-assembly-file-version "How can I get the assembly file version"
+[3]: https://stackoverflow.com/questions/42138418/equivalent-to-assemblyinfo-in-dotnet-core-csproj "Equivalent to AssemblyInfo in dotnet core/csproj"
