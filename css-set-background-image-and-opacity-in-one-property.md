@@ -7,6 +7,10 @@
 background-image: url(IMAGE_URL); /* fallback for older browsers */
 
 background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(IMAGE_URL);
+
+/* OR */
+background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://i.imgur.com/xnh5x47.jpg");
+
 ```
 
 ## 对不同浏览器的前缀兼容
@@ -48,3 +52,4 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255
 ```
 
 [1]: https://stackoverflow.com/questions/4183948/can-i-set-background-image-and-opacity-in-the-same-property "Can I set background image and opacity in the same property?"
+[2]: https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements "Set opacity of background image without affecting child elements"
